@@ -1,6 +1,7 @@
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     if (true) {
         doSomething()
+        info.setScore(0)
     }
 })
 function doSomething () {
